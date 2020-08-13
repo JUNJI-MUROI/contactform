@@ -1,0 +1,447 @@
+/* <<<<<<< HEAD */
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.puran {
+    display: flex;
+}
+
+.gaiyou h2{
+    font-size: 40px;
+}
+
+.gaiyou span {
+    font-size: 1rem;
+}
+
+.gaiyouni {
+    font-size: 1.6rem;
+}
+
+.gaiyousan {
+    padding-bottom: 50px;
+}
+
+.work {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.ro {
+    text-align: center;
+}
+
+.tate {
+    text-align: center;
+}
+
+.clearfix {
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.clearfix:nth-of-type(3) {
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+.clearfix a {
+  color: black;
+}
+
+.niban {
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.niba {
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.niba h2 {
+  font-size: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.purann {
+    display: flex;
+    margin-top: 100px;
+} 
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 15px 80px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.b {
+  margin-top: 60px;
+}
+
+
+.matome {
+    width: 400px;
+    margin: 0 auto;
+    height: 330px;
+    text-align: center;
+}
+
+.matome h3 {
+    padding: 30px 0;
+    font-size: 1.5rem;
+}
+
+.wor {
+    padding-left: 50px;
+
+}
+
+.wor h2 {
+    font-size: 4.5rem;
+}
+
+.ro h1{
+    font-size: 3rem;
+}
+
+.ro span {
+    font-size: 1.1rem;
+} 
+
+.ser {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.p {
+    padding: 40px 0;
+}
+
+.tagu ul {
+    display: flex;
+}
+
+h3 span {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.tagu ul li {
+    padding-right: 20px;
+}
+
+.tagu ul li a {
+    list-style-type: none;
+}
+
+.service {
+    padding-bottom: 70px;
+}
+
+#home {
+    background-image: url("https://www.dar-win.jp/darwin/wp-content/themes/theme-darwin/images/main-img.jpg");
+    max-width: 100%;
+    min-height: 450px;
+    background-repeat: no-repeat;
+}
+
+.wakeru {
+    padding-top: 700px
+}
+
+.moji {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 200px;
+}
+/* ======= */
+
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body{
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo{
+  width: 55px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top:34px ;
+  list-style: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main-nav li{
+  margin-left: 30px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: #0bd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.page-footer {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.page-footer p{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.page-footer h2{
+  color: #432;
+  font-size: 30px;
+  
+}
+
+
+.footer-contact-button{
+  color: #432;
+  padding: 12px 100px;
+  border-radius: 40px;
+  border: solid 1px #432;
+}
+
+.footer-contact-button:hover{
+  background-color: rgba(137, 189, 222, 0.5);
+  
+}
+
+/* <<<<<<< HEAD */
+.wrapper {
+  
+  padding: 0 2%;
+  
+}
+
+
+/* ======= */
+.footer-nav{
+  display: flex;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-top:50px ;
+  list-style: none;
+  font-weight: bold;
+  justify-content: center;
+  
+}
+
+
+
+.footer-nav li{
+  margin-left: 30px;
+}
+
+.footer-li-home{
+  margin: 0;
+}
+
+.footer-nav a{
+  color: #432;
+}
+
+.footer-nav a:hover{
+  color: #0bd;
+}
+
+small{
+  font-size: 0.8rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2%;
+  text-align: center;
+}
+
+.contact {
+  max-width: 1120px;
+  
+}
+
+.con li a {
+  color: white;
+  background-color: purple;
+  padding: 40px 10px;
+}
+
+
+.contact h2{
+ margin-top: 100px;
+ color: #000;
+ line-height: 0.7;
+ margin-bottom: 30px;
+ font-size: 56px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ font-family: inherit;
+}
+
+.contact h3{
+  color: #1F1F1F;
+    font-size: 16px;
+    border-bottom: 1px solid #828282;
+    
+    font-style: normal;
+    padding: 15px 30px;
+    padding-top: 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.contact p{
+  color: #000;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+ th {
+  padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+  width: 25%;
+  text-align: left;
+  box-sizing: border-box;
+  display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border-color: gray;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  box-sizing: border-box;
+}
+
+td {
+  padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: left;
+}
+
+input[type = text] {
+  width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+}
+
+textarea {
+  width: 80%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 5px 10px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  border: 0px;
+  background-color: #000;
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 240px;
+  padding: 15px;
+  display: block;
+  margin: 25px auto 60px auto;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  color: #fff;
+  background-color: cadetblue;
+}
+
+.radio {
+  position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 
+<<<<<<< HEAD
+>>>>>>> 8ce605440b75ede39f69a415d9e07b90674c5684
+=======
+
+>>>>>>> 1612a361de1e99b68cd0bc2f821f226983f85d14 */
+/* >>>>>>> 003efa7443a7c8666e782003ba36205e674e9c30 */
