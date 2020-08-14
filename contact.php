@@ -1,4 +1,5 @@
 <?php 
+session_start();
 $title = 'ご相談・お問い合わせ - 神奈川 ホームページ制作';
 require 'header.php'?>
  
@@ -6,7 +7,7 @@ require 'header.php'?>
     <h2>CONTACT</h2>
     <h3>ご相談・お問合せ</h3>
     <p>お問い合わせは下記メールフォームからご連絡ください。</p>
-  <form action="">
+  <form action="confirm.php">
     
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tbody><tr>
