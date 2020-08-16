@@ -1,5 +1,4 @@
 <?php 
-session_start();
 $title = 'ご相談・お問い合わせ - 神奈川 ホームページ制作';
 require 'header.php'?>
  
@@ -7,21 +6,21 @@ require 'header.php'?>
     <h2>CONTACT</h2>
     <h3>ご相談・お問合せ</h3>
     <p>お問い合わせは下記メールフォームからご連絡ください。</p>
-  <form action="confirm.php">
+  <form action="confirm.php" method = "POST">
     
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tbody><tr>
         <th>会社名</th>
-        <td><input name="会社名" type="text" tabindex="1" accesskey="1"></td>
+        <td><input name="company" type="text" tabindex="1" accesskey="1"></td>
       </tr>
       <tr>
         <th>お名前</th>
-        <td><input name="_お名前" type="text" tabindex="2" accesskey="2" required=""><span class="hissu"> [必須]</span></td>
+        <td><input name="name" type="text" tabindex="2" accesskey="2" required="" id="name"><span class="hissu"> [必須]</span></td>
       </tr>
      
       <tr>
         <th>メールアドレス</th>
-        <td><input name="_email" type="text" tabindex="4" accesskey="4" required=""><span class="hissu"> [必須]</span></td>
+        <td><input name="email" type="text" tabindex="4" accesskey="4" required=""><span class="hissu"> [必須]</span></td>
       </tr>
      
       <tr>
@@ -31,7 +30,7 @@ require 'header.php'?>
 
       <tr>
         <th>ご質問やご要望をご記入ください</th>
-        <td><textarea name="_お問い合わせ内容" cols="" rows="6" tabindex="5" accesskey="5" required=""></textarea><span class="hissu"> [必須]</span></td>
+        <td><textarea name="body" cols="" rows="6" tabindex="5" accesskey="5" required=""></textarea><span class="hissu"> [必須]</span></td>
       </tr>
       
     </tbody></table>
