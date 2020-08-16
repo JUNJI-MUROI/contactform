@@ -8,7 +8,7 @@ require 'header.php'?>
     <p>お問い合わせは下記メールフォームからご連絡ください。</p>
   <form action="confirm.php" method = "POST">
     
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <table width="100%" border="1" cellspacing="0" cellpadding="0">
       <tbody><tr>
         <th>会社名</th>
         <td><input name="company" type="text" tabindex="1" accesskey="1"></td>
@@ -25,7 +25,7 @@ require 'header.php'?>
      
       <tr>
         <th>相談したいサービス</th>
-        <td><span class="radio"><input name="相談したいサービス" type="radio" value="課題解決Web制作" checked="">Web制作</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Webシステム開発">Webシステム開発</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Web広告の運用">Web広告の運用</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="その他">その他</span></td>
+        <td><span class="radio"><input name="相談したいサービス" type="radio" value="Web制作" checked="">Web制作</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Webシステム開発">Webシステム開発</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="Web広告の運用">Web広告の運用</span>　<span class="radio"><input name="相談したいサービス" type="radio" value="その他">その他</span></td>
       </tr>
 
       <tr>
