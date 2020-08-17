@@ -29,7 +29,7 @@ require 'header.php'?>
       </tr>
 
       <tr>
-        <th>ご質問やご要望をご記入ください</th>
+        <th>相談したいサービス、その他ご質問やご要望をご記入ください</th>
         <td><textarea name="body" cols="" rows="6" tabindex="5" accesskey="5" required=""></textarea><span class="hissu"> [必須]</span></td>
       </tr>
       

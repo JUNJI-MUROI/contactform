@@ -1,6 +1,6 @@
 <?php 
 $title = '確認画面 - 神奈川 ホームページ制作';
-$name = isset( $_POST[ 'name' ] );
+$name = isset( $_POST[ 'name' ] ) ? $_POST[ 'name' ] : NULL;
 $email = isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : NULL;
 $subject = isset( $_POST[ 'subject' ] ) ? $_POST[ 'subject' ] : NULL;
 $body = isset( $_POST[ 'body' ] ) ? $_POST[ 'body' ] : NULL;
@@ -52,7 +52,7 @@ $service = isset( $_POST[ '相談したいサービス' ] ) ? $_POST[ '相談し
 <tr>
   <th>相談したいサービス</th>
   <td><?=$service?></td>
-</tr>
+</tr> 
 
 <tr>
   <th>お問い合わせ内容</th>
@@ -65,16 +65,27 @@ $service = isset( $_POST[ '相談したいサービス' ] ) ? $_POST[ '相談し
 </tr> -->
 
 </tbody></table>
-<form action="" method="post">
-<input type="hidden" name="mode" value="send">
-<input type="hidden" name="ses_id" value="B7YF0Jp5ZbDqDNkHLIsOw1nVd">
-<input type="hidden" name="sort" value="">
-<input type="hidden" name="会社名" value="31">
-<input type="hidden" name="お名前" value="32">
-<input type="hidden" name="email" value="72796f756a6940676d61696c2e636f6d">
-<input type="hidden" name="相談したいサービス" value="e8aab2e9a18ce8a7a3e6b1ba576562e588b6e4bd9c">
-<input type="hidden" name="お問い合わせ内容" value="32">
-<input type="hidden" name="個人情報保護方針の同意" value="6f6b">
+
+<script type="text/javascript">
+      var submitted = false;
+      var currentURL = window.location.href;
+    </script>
+    
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thanks.html';}"></iframe>
+
+    <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdsCNIBURdkPGpJAeqN_WbyoJ7RmKImTuPsP-YACgynZL202A/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+      <input type="hidden" name="entry.1923065908" value="<?=$company?>">
+      <input type="hidden" name="entry.289745675" value="<?=$name?>">
+      <input type="hidden" name="entry.1541720662" value="<?=$email?>">
+      <input type="hidden" name="entry.1794318570" value="<?=$body?>">
+      
+    
+
+    
+      
+      
+      <script src="js/main.js"></script>
+      <script src="script.js"></script>
 
 <p class="btn">
 	<input type="button" value="< 前に戻る" onclick="history.back()">
